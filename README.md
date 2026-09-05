@@ -34,3 +34,7 @@ Custom songs work fine, the problem are the game's own songs and boss fights (wh
 For that you need to open the songs.json file and your Pagoda.log (located in \AppData\Local\Pagoda\Saved\Logs).
 There you can search for the "OnSongStartedEvent, song asset" event, the text afterwards should look something like that which is already added in the songs.json file.
 This text needs to be added to the songs.json file, from there you follow the same structure by filling out the right artist - songname.
+
+
+=== **To do, sorta** ===
+maybe find out how to add stuff like score, current/full song length or even beats count.
