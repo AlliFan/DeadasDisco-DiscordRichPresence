@@ -22,7 +22,11 @@ And add the ENTIRE following line:
 
 This will add an auto start for the Discord Rich Present to your gamestart.
 
-For both options: Discord rich presence will be active as long as the game remains open.
+<ins>Information for both options:</ins>
+
+There's a short moment where the windows console will appear. This can't really be changed, see it as an check to confirm that the program is successfully running.
+
+Discord rich presence will be active as long as the game remains open.
 The program will close itself after closing Dead as Disco.
 For more informations, and maybe troubleshooting, there's a presence_log.txt file which contains informations about that.
 
