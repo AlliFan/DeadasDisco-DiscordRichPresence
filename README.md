@@ -38,4 +38,5 @@ This text needs to be added to the songs.json file, from there you follow the sa
 
 === **To do, sorta** ===
 
-maybe find out how to add stuff like score, current/full song length or even beats count.
+- adding tracking for all the base songs from the game
+- maybe find out how to add stuff like score, current/full song length or even beats count.
