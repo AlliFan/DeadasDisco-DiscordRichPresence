@@ -21,6 +21,7 @@ And add the ENTIRE following line:
 
 
 This will add an auto start for the Discord Rich Present to your gamestart.
+After this you can just start the game via steam.
 
 <ins>Information for both options:</ins>
 
