@@ -1,22 +1,23 @@
 # Dead as Disco: Discord Rich Presence
-Installation:
+<ins>Installation:</ins>
 
 [Download](https://github.com/AlliFan/DeadasDisco-DiscordRichPresence/releases/tag/Release) the latest ZIP file and extract it in a folder of your choice.
 
-Usage:
+<ins>Usage:</ins>
 
 Discord must be open. (I mean why would you want a Discord Rich Presence without having discord active?)
 
-- Option 1:
+**- Option 1:**
 1. Launch DeadAsDiscoPresence.exe.
 2. Launch Dead as Disco. 
 That’s it.
 
-- Option 2:
+**- Option 2:**
+
 Go to your Dead as Disco Steam properties (Steam library -> right click "Dead as Disco" -> Properties
 And add the ENTIRE following line:
 
-cmd /c start "" "YOUR INSTALLATION PATH\DeadAsDiscoPresence.exe" & start "" %command% 
+<ins>cmd /c start "" "YOUR INSTALLATION PATH\DeadAsDiscoPresence.exe" & start "" %command%</ins> 
 
 
 This will add an auto start for the Discord Rich Present to your gamestart.
@@ -27,7 +28,7 @@ For more informations, and maybe troubleshooting, there's a presence_log.txt fil
 
 
 
-=== Adding missing/new songs: ===
+=== **Adding missing/new songs:** ===
 
 Custom songs work fine, the problem are the game's own songs and boss fights (which aren't properly named in the log file.
 For that you need to open the songs.json file and your Pagoda.log (located in \AppData\Local\Pagoda\Saved\Logs).
