@@ -1,7 +1,7 @@
 # Dead as Disco: Discord Rich Presence
 Installation:
 
-Extract the ZIP file and place it in a folder of your choice.
+[Download](https://github.com/AlliFan/DeadasDisco-DiscordRichPresence/releases/tag/Release) the latest ZIP file and extract it in a folder of your choice.
 
 Usage:
 
