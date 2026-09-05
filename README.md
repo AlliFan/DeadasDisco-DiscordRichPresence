@@ -1,4 +1,4 @@
-# Dead_as_Disco:_Discord_Rich_Presence
+# Dead as Disco: Discord Rich Presence
 Installation:
 
 Extract the ZIP file and place it in a folder of your choice.
