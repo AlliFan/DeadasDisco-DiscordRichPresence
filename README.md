@@ -37,16 +37,17 @@ There's a short moment where the windows console will appear. This can't really 
 
 Discord rich presence will be active as long as the game remains open.
 The program will close itself after closing Dead as Disco.
-For more informations, and maybe troubleshooting, there's a presence_log.txt file which contains informations about that.
+For information what is happening in that console, and maybe troubleshooting, there's a `presence_log.txt` file which contains informations about that.
 
 
 
 ## <ins>Adding missing/new songs:</ins>
 
 Custom songs work fine, the problem are the game's own songs and boss fights (which aren't properly named in the log file.
-For that you need to open the songs.json file and your Pagoda.log (located in \AppData\Local\Pagoda\Saved\Logs).
-There you can search for the "OnSongStartedEvent, song asset" event, the text afterwards should look something like that which is already added in the songs.json file.
-This text needs to be added to the songs.json file, from there you follow the same structure by filling out the right artist - songname.
+
+- For that you need to open the `songs.json` file and your Pagoda.log (located in \AppData\Local\Pagoda\Saved\Logs).
+- There you can search for the `"OnSongStartedEvent, song asset"` event, the text afterwards should look something like that which is already added in the `songs.json` file.
+- This text needs to be added to the `songs.json` file, from there you follow the same structure by filling out the right artist - songname.
 
 
  ## <ins>To do, sorta</ins>
