@@ -8,7 +8,7 @@
 > [!NOTE]
 > Windows Defender might briefly report "Trojan:Win32/Wacatac.B!ml". This is a known false positive for Python-based tools (2/71 on VirusTotal, no behavioral hits) – [VirusTotal scan here](https://www.virustotal.com/gui/file/6a89a96e5992fc33ac8cd011332d99d58e192a7139de1ee67d4d4d341a3ec2eb?nocache=1).
 
-This is now fixed after microsoft rewieving the program. You can still get the warning if your Windows Defender isn't updated yet.
+This is now fixed after microsoft reviewing the program. You can still get the warning if your Windows Defender isn't updated yet.
 
 ## <ins>Usage:</ins>
 
