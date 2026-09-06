@@ -22,7 +22,7 @@ That’s it.
 
 ### **- Option 2:**
 
-Go to your Dead as Disco Steam properties (Steam library -> right click "Dead as Disco" -> Properties
+Go to your Dead as Disco Steam properties (Steam library -> right click "Dead as Disco" -> Properties)
 And add the ENTIRE following line:
 
 `cmd /c start "" "YOUR INSTALLATION PATH\DeadAsDiscoPresence.exe" & start "" %command%`
