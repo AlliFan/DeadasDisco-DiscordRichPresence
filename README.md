@@ -23,7 +23,7 @@ That’s it.
 ### **- Option 2:**
 
 Go to your Dead as Disco Steam properties (Steam library -> right click "Dead as Disco" -> Properties)
-And add the ENTIRE following line:
+and add the ENTIRE following line:
 
 `cmd /c start "" "YOUR INSTALLATION PATH\DeadAsDiscoPresence.exe" & start "" %command%`
 
@@ -35,7 +35,7 @@ After this you can just start the game via Steam.
 
 There's a short moment where the windows console will appear. This can't really be changed, see it as an check to confirm that the program is successfully running.
 
-Discord rich presence will be active as long as the game remains open.
+Discord Rich Presence will be active as long as the game remains open.
 The program will close itself after closing Dead as Disco.
 For information what is happening in that console, and maybe troubleshooting, there's a `presence_log.txt` file which contains informations about that.
 
