@@ -17,6 +17,7 @@ Discord must be open. (I mean why would you want a Discord Rich Presence without
 ### **- Option 1:**
 1. Launch DeadAsDiscoPresence.exe.
 2. Launch Dead as Disco. 
+
 That’s it.
 
 ### **- Option 2:**
@@ -28,7 +29,7 @@ And add the ENTIRE following line:
 
 
 This will add an auto start for the Discord Rich Present to your gamestart.
-After this you can just start the game via steam.
+After this you can just start the game via Steam.
 
 ## <ins>Information for both options:</ins>
 
@@ -50,5 +51,5 @@ This text needs to be added to the songs.json file, from there you follow the sa
 
  ## <ins>To do, sorta</ins>
 
-- adding tracking for all the base songs from the game
-- maybe find out how to add stuff like score, current/full song length or even beats count.
+- [ ] adding tracking for all the base songs from the game
+- [ ] maybe find out how to add stuff like score, current/full song length or even beats count.
