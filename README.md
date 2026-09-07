@@ -3,6 +3,8 @@
 
 A simple Discord Rich Presence "mod" for Dead as Disco.
 
+Tested and used with the Early Access version from Steam. Don’t have the other versions to test for compatibility.
+
 The program works without changing/modifying any of the orignal game files, it just reads the .log file that every Unreal Engine games creates. 
 
 
