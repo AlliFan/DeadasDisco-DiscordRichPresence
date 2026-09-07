@@ -3,9 +3,9 @@
 
 A simple Discord Rich Presence "mod" for Dead as Disco.
 
-Tested and used with the Early Access version from Steam. Don’t have the other versions to test for compatibility.
+Tested and used with the `Early Access` & `Demo` version from steam. NOT tested with the Epic Games version.
 
-The program works without changing/modifying any of the orignal game files, it just reads the .log file that every Unreal Engine games creates. 
+The program works without changing/modifying any of the orignal game files, it just reads the .log file that the game creates.
 
 
 ## <ins>Installation:</ins>
@@ -32,8 +32,9 @@ That’s it.
 Go to your Dead as Disco Steam properties (Steam library -> right click "Dead as Disco" -> Properties)
 and add the ENTIRE following line:
 
+```
 `cmd /c start "" "YOUR INSTALLATION PATH\DeadAsDiscoPresence.exe" & start "" %command%`
-
+```
 
 This will add an auto start for the Discord Rich Presence to your gamestart.
 After this you can just start the game via Steam.
@@ -56,6 +57,9 @@ Custom songs work fine, the problem are the game's own songs and boss fights (wh
 - There you can search for the `"OnSongStartedEvent, song asset"` event, the text afterwards should look something like that which is already added in the `songs.json` file.
 - This text needs to be added to the `songs.json` file, from there you follow the same structure by filling out the right artist - songname.
 
+## <ins>Known issues:</ins>
+
+- False display with artist / songname being swapped (sometimes first, sometimes second row) results from the way the files are named.
 
  ## <ins>To do, sorta</ins>
 
