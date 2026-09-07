@@ -63,5 +63,5 @@ Custom songs work fine, the problem are the game's own songs and boss fights (wh
 
  ## <ins>To do, sorta</ins>
 
-- [ ] adding tracking for all the base songs from the game
+- [ ] add tracking for all the base songs from the game
 - [ ] maybe find out how to add stuff like score, current/full song length or even beats count.
