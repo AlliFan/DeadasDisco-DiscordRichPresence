@@ -33,7 +33,7 @@ and add the ENTIRE following line:
 `cmd /c start "" "YOUR INSTALLATION PATH\DeadAsDiscoPresence.exe" & start "" %command%`
 
 
-This will add an auto start for the Discord Rich Present to your gamestart.
+This will add an auto start for the Discord Rich Presence to your gamestart.
 After this you can just start the game via Steam.
 
 ## <ins>Information for both options:</ins>
