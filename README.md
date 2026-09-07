@@ -41,7 +41,7 @@ After this you can just start the game via Steam.
 
 ## <ins>Information for both options:</ins>
 
-There's a short moment where the windows console will appear, this can't really be changed. See it as a check to confirm that the program is successfully running.
+There can be a short moment where the windows console will appear, this can't really be changed. See it as a check to confirm that the program is successfully running.
 
 Discord Rich Presence will be active as long as the game remains open.
 The program will close itself after closing Dead as Disco.
