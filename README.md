@@ -33,7 +33,7 @@ Go to your Dead as Disco Steam properties (Steam library -> right click "Dead as
 and add the ENTIRE following line:
 
 ```
-`cmd /c start "" "YOUR INSTALLATION PATH\DeadAsDiscoPresence.exe" & start "" %command%`
+cmd /c start "" "YOUR INSTALLATION PATH\DeadAsDiscoPresence.exe" & start "" %command%
 ```
 
 This will add an auto start for the Discord Rich Presence to your gamestart.
