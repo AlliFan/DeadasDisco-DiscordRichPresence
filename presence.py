@@ -25,7 +25,7 @@ class TimestampedWriter:
     def flush(self):
         self.file.flush()
 
-GAME_PROCESS_NAMES = ["PagodaSteam-Win64-Shipping.exe"]
+GAME_PROCESS_NAMES = ["PagodaSteam-Win64-Shipping.exe", "PagodaSteamDemo-Win64-Shipping.exe"]
 
 
 def is_game_running():
@@ -39,8 +39,15 @@ def is_game_running():
 
 
 def watch_game_and_exit():
+    MAX_WAIT_MINUTES = 5
+    waited_seconds = 0
+
     while not is_game_running():
         time.sleep(1)
+        waited_seconds += 1
+        if waited_seconds >= MAX_WAIT_MINUTES * 60:
+            print(f"No game detected within {MAX_WAIT_MINUTES} minutes. Closing application.")
+            os._exit(0)
 
     misses = 0
     REQUIRED_MISSES = 3
@@ -55,7 +62,7 @@ def watch_game_and_exit():
                 break
         time.sleep(CHECK_INTERVAL)
 
-    print("Dead as Disco was closed.")
+    print("Dead as Disco was closed. Closing application...")
     time.sleep(1)
     os._exit(0)
 
@@ -211,7 +218,7 @@ def main():
     def push_update():
         try:
             if current_map_type == "bar":
-                rpc.update(details="Chilling at the Bar", start=int(time.time()))
+                rpc.update(details="Chilling at the bar", start=int(time.time()))
             elif current_map_type == "menu":
                 rpc.update(details="Idle", start=int(time.time()))
             elif current_song:
@@ -260,4 +267,3 @@ if __name__ == "__main__":
         import traceback
         traceback.print_exc()
         time.sleep(10)
-
