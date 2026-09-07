@@ -1,6 +1,11 @@
 # Dead as Disco: Discord Rich Presence
 <img width="260" height="74" alt="ezgif-85d61f7c30e927a4" src="https://github.com/user-attachments/assets/60dcfc0c-e395-4fdf-b4af-f67d499722de" />
 
+A simple Discord Rich Presence "mod" for Dead as Disco.
+
+The program works without changing/modifying any of the orignal game files, it just reads the .log file that every Unreal Engine games creates. 
+
+
 ## <ins>Installation:</ins>
 
 [Download](https://github.com/AlliFan/DeadasDisco-DiscordRichPresence/releases/tag/Release) the latest ZIP file and extract it in a folder of your choice.
@@ -33,7 +38,7 @@ After this you can just start the game via Steam.
 
 ## <ins>Information for both options:</ins>
 
-There's a short moment where the windows console will appear. This can't really be changed, see it as an check to confirm that the program is successfully running.
+There's a short moment where the windows console will appear, this can't really be changed. See it as a check to confirm that the program is successfully running.
 
 Discord Rich Presence will be active as long as the game remains open.
 The program will close itself after closing Dead as Disco.
