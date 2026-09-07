@@ -1,0 +1,4 @@
+* text=auto
+*.py text
+*.ico binary
+*.exe binary
